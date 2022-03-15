@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Italianno', cursive;
+}
+div {
+    padding-top: 0.1rem;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+.container > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+
+h2{
+    padding: 1rem;
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+#divCards {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
