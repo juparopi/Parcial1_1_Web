@@ -1,6 +1,76 @@
 h1 {
-    font-family: 'Italianno', cursive;
+    font-family: 'Rochester', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    /* identical to box height */
+    color: #000000;
 }
+
+#myTable {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+#total {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#mainBody {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#fotoCarrito {
+    width: 80px;
+    height: 81px;
+    left: 1257px;
+    top: 43px;
+
+}
+
+#Title  {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.botonCarta {
+    font-weight: 700;
+    background-color: #F2A950;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.card-text-price, .card-title{
+    font-weight: 700;
+}
+
+#carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div {
     padding-top: 0.1rem;
 }
@@ -24,14 +94,12 @@ div {
 }
 
 .nav-item {
-    margin-right: 1.5rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
 }
 
 h2{
     padding: 1rem;
-    font-family: 'Italianno', cursive;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     
 }
@@ -39,4 +107,37 @@ h2{
 #divCards {
     margin-right: 10rem;
     margin-left: 10rem;
+}
+
+td, th {
+
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px; 
+}
+
+tr:nth-child(even),table.myTable thead>tr {
+    background-color: #C4C4C4;
+}
+
+.botonTabla {
+    background: #FDCD55;
+    border-radius: 3px;
+}
+
+.botonCancel {
+    background: #8C162C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.botonConfirm {
+    background: #708C32;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
